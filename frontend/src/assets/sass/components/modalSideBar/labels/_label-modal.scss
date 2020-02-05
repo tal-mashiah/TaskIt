@@ -1,0 +1,112 @@
+.label-modal-container {
+  position: relative;
+
+  .labal-modal {
+    position: fixed;
+    z-index: 999;
+    background-color: #fff;
+    width: 18rem;
+    border-radius: 5px;
+    margin-top: 8px;
+    @include for-middle-layout {
+      right: 0;
+    }
+    input {
+      outline: none;
+      background-color: #fafbfc;
+      border: none;
+      box-shadow: inset 0 0 0 2px #dfe1e6;
+      color: #172b4d;
+      box-sizing: border-box;
+      -webkit-appearance: none;
+      border-radius: 3px;
+      display: block;
+      line-height: 20px;
+      margin-bottom: -11px;
+      padding: 8px 12px;
+      transition-property: background-color, border-color, box-shadow;
+      transition-duration: 85ms;
+      transition-timing-function: ease;
+      width: 93%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .icon-cross {
+      font-size: 11px;
+      top: 6px;
+      right: 11px;
+    }
+
+    h3 {
+      text-align: center;
+      padding-bottom: 0.3rem;
+      width: 93%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 10px;
+      border-bottom: 1px solid rgba(9, 30, 66, 0.13);
+    }
+
+    .labels-container {
+      padding: 0px 15px 5px 15px;
+
+      h3 {
+        text-align: start;
+        border-bottom: none;
+        margin: 0;
+      }
+    }
+
+    .label {
+      cursor: pointer;
+      border-radius: 4px;
+      height: 30px;
+      margin-bottom: 4px;
+      margin-top: 5px;
+      transition: ease 0.2s;
+
+      &:hover {
+        border-left: solid 9px #80808066;
+        margin-left: -6px;
+      }
+    }
+  }
+}
+
+.labels-title {
+  margin-bottom: -9px !important;
+  margin-top: 15px !important;
+}
+
+.label-name-initials {
+  cursor: pointer;
+  border-radius: 3px;
+  box-sizing: border-box;
+  display: block;
+  float: left;
+  font-weight: 600;
+  height: 32px;
+  line-height: 32px;
+  margin: 0 4px 4px 0;
+  min-width: 40px;
+  padding: 0 12px;
+  width: auto;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.smaller {
+  float: left;
+  font-size: 12px;
+  font-weight: 700;
+  height: 8px;
+  line-height: 100px;
+  margin: 0 4px 4px 0;
+  max-width: 40px;
+  min-width: 40px;
+  padding: 0;
+  text-shadow: none;
+  width: auto;
+}

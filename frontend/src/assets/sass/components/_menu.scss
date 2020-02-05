@@ -1,0 +1,108 @@
+.menu {
+  margin-top: 76px;
+  z-index: 999;
+  top: 0;
+  right: 0;
+  position: fixed;
+  width: 336px;
+  height: 100vh;
+  background: #f4f5f7;
+  padding: 12px 6px 12px 12px;
+  transition: ease 0.4s all;
+}
+
+.menu-on {
+  transform: translate(100%, 0);
+}
+
+.menu-off {
+  transform: translate(0%, 0);
+}
+
+.exit-menu {
+  cursor: pointer;
+  color: black;
+  right: 6px;
+  top: 4px;
+  position: absolute;
+
+  .icon-cross {
+    font-size: 12px;
+    top: 5px;
+    right: 7px;
+  }
+}
+
+.menu-options {
+  width: 100%;
+}
+
+.menu-options img {
+  border-radius: 10px;
+  transition: 0.2 ease all;
+  cursor: pointer;
+  padding: 2px;
+  height: 7rem;
+  width: 50%;
+
+  &:hover {
+    opacity: 0.9;
+  }
+}
+
+.choose-options {
+  font-size: 1.1rem;
+  font-family: cursive;
+  text-align: center;
+}
+
+.menu-description {
+  font-family: cursive;
+}
+
+.goback-menu {
+  position: absolute;
+  margin-top: -60px;
+  cursor: pointer;
+  left: 5px;
+  top: 1px;
+
+  .icon-arrow-left2 {
+    position: absolute;
+    font-size: 17px;
+    left: 5px;
+    top: -3px;
+  }
+}
+
+.menu-side-header {
+  font-size: 1.1rem;
+  font-family: cursive;
+  text-align: center;
+  border-bottom: 1px solid rgba(9, 30, 66, 0.13);
+  padding: 5px;
+  width: 96%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.activity-section {
+  margin-top: 16px;
+  width: 96%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border-top: 1px solid rgba(9, 30, 66, 0.13);
+  padding-top: 10px;
+  font-size: 1.1rem;
+  font-family: cursive;
+  border-bottom: 1px solid rgba(9, 30, 66, 0.13);
+  padding-bottom: 10px;
+}
+
+.activity-list {
+  width: 100%;
+  height: 288px;
+  overflow: auto;
+  padding: 16px 6px;
+}

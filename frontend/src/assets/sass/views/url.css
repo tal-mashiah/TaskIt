@@ -1,0 +1,51 @@
+.img:before {
+  background-image: url("../../images/login-bg.jpg");
+}
+
+.home-page-section-1 {
+  background: url("https://kanbanize.com/wp-content/themes/kanbanize/img/workflows_background_medium_green.jpg") fixed center;
+}
+
+.home-page-section-2 {
+  background: url("https://kanbanize.com/wp-content/themes/kanbanize/img/main-section-1-bg.jpg") fixed center;
+}
+
+.home-page-header:before {
+  background: url("https://images.pexels.com/photos/3183151/pexels-photo-3183151.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260")
+    50% 0 no-repeat;
+}
+.home-page-header-hero{
+  background: url("../../images/hero-header.webp");
+}
+
+.creator-section1 {
+  background: url("../../images/section.jpg") center no-repeat;
+}
+
+.creator-section4 {
+  background: url("../../images/section4.jfif") center no-repeat;
+}
+
+.creator-section5 {
+  background: url("../../images/section5.jpg") center no-repeat;
+}
+
+.about-page-header {
+    background: url("../../images/about.jpg") fixed center no-repeat;
+}
+
+.board-page-container {
+  background-image: url('../../images/creative-fresh-work-desk.jpg');
+}
+
+.dnd-seciton-img{
+  background-image:url('../../images/dnd.jpeg');
+}
+
+.dnd2-seciton-img{
+  background-image:url('../../images/boardmanage.jpeg');
+}
+
+.socket-seciton-img{
+  background-image:url('../../images/sockets.jpeg');
+}
