@@ -42,6 +42,7 @@ user: user.controller,user.routes,user.service.
 The app supports all the newest technologies such as React.js,Node.js Express.js (sessions, cookies etc...), Redux,
 socket.io,drag and drop. MongoDb DataBase and user Auth (sign in, sign up etc..).
 
+you can see it here > https://app-taskit.herokuapp.com/guest
 
 
 
